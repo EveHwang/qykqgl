@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="./Public/Admin/Css/public.css" rel="stylesheet" type="text/css" />
+	<link href="./Public/Admin/Css/haiersoft.css" rel="stylesheet" type="text/css" media="screen,print" />
+	<link href="./Public/Admin/Css/print.css" rel="stylesheet" type="text/css"  media="print" />
+	<script src="./Public/Admin/Js/jquery-1.10.1.min.js"></script>
+	<script src="./Public/Admin/Js/side.js" type="text/javascript"></script>
+<title>出差管理</title>
+<script type="text/javascript">
+	function confirmDel(id)
+	{
+		if(window.confirm("确认要删除吗？"))
+		{
+			location.href="?c=Bustrip&a=delete&id="+id;
+		}
+	}
+</script>
+</head>
+
+<body>
+<div id="MainForm">
+	<div class="form_boxA">
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<h2>出差管理</h2>
+			<tr cellpadding="0" cellspacing="0">
+	</div>
+<table width="100%" border="0" align="center" cellpadding="3" cellspacing="1" class="border">
+<tr class="title" align="center">
+	<td>编号</td>
+	<td>姓名</td>
+	<td>部门</td>
+	<td>出差时间</td>
+	<td>操作选项</td>
+</tr>
+<{foreach $bustrips as $bustrip}>
+<tr class="tdbg" >
+	<td><{$bustrip.id}></td>
+	<td><{$bustrip.name}></td>
+	<td><{$bustrip.department}></td>
+	<td><{$bustrip.bt_time}></td>
+	<td>
+		<a href="?c=Bustrip&a=edit&id=<{$link.id}>">修改</a> |
+		<a href="javascript:void(0);" onclick="confirmDel(<{$bustrip.id}>)">删除</a>
+	</td>
+</tr>
+<{/foreach}>
+</table>
+     </div>
+</table>
+</body>
+</html>

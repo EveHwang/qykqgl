@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+	<script type="text/javascript">
+		var juhaoyong_mp_site_jump_url="m";
+	</script>
+	<script type="text/javascript" src="./Public/Home/Js/mp.js"></script>
+	<link rel="stylesheet" type="text/css" href="./Public/Home/Css/juhaoyongfgstyle/common.css" />
+	<link rel="stylesheet" type="text/css" href="./Public/Home/Css/juhaoyongfgstyle/indexcss.css" />
+	<link rel="stylesheet" type="text/css" href="./Public/Home/Css/juhaoyongfgstyle/index_custom_attribute.css" />
+	<script type="text/javascript" src="./Public/Home/Css/juhaoyongfgstyle/functions.js"></script>
+	<script type="text/javascript" src="./Public/Home/Js/jquery.min.js"></script>
+	<script type="text/javascript" src="./Public/Home/Js/index_top_big_slide.js"></script>
+	<script type="text/javascript" src="./Public/Home/Js/index_product_slide.js"></script>
+</head>
+<body>
+<<div class="top">
+	<div class='TopLogo'>
+		<div class='logo'>
+			<a href='' ><img src='./Public/Home/Css/juhaoyongfgstyle/logo.gif'></a></div></div>
+	<div class='TopInfo'>
+		<div class='link'> <{$smarty.session.username}>，欢迎<br/>
+			<a href='admin.php?c=index'>后台管理</a> | <a href='#'>网站导航</a> </div>
+		<div class='juhaoyongTopSearchClass'>
+			<form method='get' action='Search/index.asp'>
+      <span class='SearchBar'>
+        <input type='text' name='q' id='search-text' size='15' onBlur="if(this.value=='') this.value='请输入关键词';" onfocus="if(this.value=='请输入关键词') this.value='';" value='请输入关键词' />
+        <input type='submit' id='search-submit' value='搜索' />
+      </span>
+			</form>
+		</div>
+		<div class='tel'>
+			<div class='phone_title'>联系电话</div>
+			<div class='phone_number'>862-372-311</div>
+		</div></div>
+</div>
+<!--jhy_navigation start-->
+<div id="NavLink">
+	<div class='NavBG'>
+		<ul id='sddm'>
+			<li><a href=''>网站首页</a></li>
+			<li id='aaabbb2' onmouseover=juhaoyongNavBgaColor('aaabbb2') onmouseout=style.background=''>
+				<a href='about' onmouseover=mopen('m2') onmouseout='mclosetime()'>关于我们</a>
+				<div id='m2' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
+					<a class='juhaoyong_second_menu_class' href='#'>企业文化</a>
+					<a  href='#'>公司环境</a>
+					<a  href='#'>资质荣誉</a>
+				</div></li>
+			<li id='aaabbb3' onmouseover=juhaoyongNavBgaColor('aaabbb3') onmouseout=style.background=''>
+				<a href='news' onmouseover=mopen('m3') onmouseout='mclosetime()'>新闻动态</a>
+				<div id='m3' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
+					<a class='juhaoyong_second_menu_class' href='#'>公司公告</a>
+					<a  href='#'>公司新闻</a>
+					<a  href='#'>行业新闻</a>
+				</div></li>
+			<li id='aaabbb4' onmouseover=juhaoyongNavBgaColor('aaabbb4') onmouseout=style.background=''>
+				<a href='product1' onmouseover=mopen('m4') onmouseout='mclosetime()'>产品展示</a>
+				<div id='m4' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
+					<a class='juhaoyong_second_menu_class' href='product1'>产品类一</a>
+					<a  href='product2'>产品类二</a> <a  href='product3'>产品类三</a>
+				</div></li>
+			<li id='aaabbb5' onmouseover=juhaoyongNavBgaColor('aaabbb5') onmouseout=style.background=''>
+				<a href='businessscope' onmouseover=mopen('m5') onmouseout='mclosetime()'>业务范围</a>
+				<div id='m5' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
+					<a class='juhaoyong_second_menu_class' href='businessscope/servicecontent'>服务内容</a>
+					<a  href='businessscope/servicearea'>服务地区</a>
+				</div></li> <li><a href='displaycase'>案例展示</a></li>
+			<li id='aaabbb7' onmouseover=juhaoyongNavBgaColor('aaabbb7') onmouseout=style.background=''>
+				<a href='personnel' onmouseover=mopen('m7') onmouseout='mclosetime()'>公司人才</a>
+				<div id='m7' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
+					<a class='juhaoyong_second_menu_class' href='#'>人才培养</a>
+					<a  href='#'>福利待遇</a>
+					<a  href='#'>人才招聘</a>
+				</div></li>
+			<li id='aaabbb8' onmouseover=juhaoyongNavBgaColor('aaabbb8') onmouseout=style.background=''>
+				<a href='servicecenter' onmouseover=mopen('m8') onmouseout='mclosetime()'>员工入口</a>
+				<div id='m8' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
+					<a class='juhaoyong_second_menu_class' href='?c=Working&a=index'>上班打卡</a>
+					<a  href='?c=User&a=index'>管理员登录</a>
+					<a  href='?c=Afleave&a=index'>请假管理</a>
+				</div></li>
+		</ul></div>
+</div>
+<!--jhy_navigation end-->
+
+
+<div class="HeightTab2 clearfix"></div>
+
+</div>
+<!------------------head end------------------>
+
+<!--body start-->
+<div id="body">
+	<!--MainBlock start-->
+	<div class="MainBlock">
+		<!--right start-->
+		<div class="right">
+			<div class="topic">
+				<div class="TopicTitle"><a href="About" target="_blank">关于我们</a></div>
+				<div class="TopicMore"> <a  href="About" target="_blank"><img src="./Public/Home/images/more.png"></a></div>
+			</div>
+			<div class='img'>
+				<a href='About' title='关于我们' target='_blank'>
+					<img src='./Public/Home/Images/juhaoyongfgstyle/about.jpg' alt='关于我们'>
+				</a></div>
+			<div class="txt ColorLink">
+				<p>
+					春田花花企业宗旨...
+					<a href="About" target="_blank">详细>></a>
+				</p>
+			</div>
+			<div class=" clearfix"></div>
+		</div>
+		<!--right end-->
+
+		<div class="WidthTab2"></div>
+
+		<!------------------left start------------------>
+		<div class="left">
+			<div class="topic">
+				<div class="TopicTitle"><a  href="news" target="_blank">最新资讯</a></div>
+				<div class="TopicMore"> <a  href="news" target="_blank"><img src="./Public/Home/Images/more.png"></a></div>
+			</div>
+			<div class="clearfix"></div>
+			<table class="MBlockTable" width="100%" border="0" cellspacing="0" cellpadding="0">
+				<ul><tr><td width='80%' class='ListTitle'>
+					<a href='#' title='选购虚拟主机空间的误区：价格和限制误区' target='_blank'>选购虚拟主机空间的误区：价格和限制误区</a></td>
+					<td width='20%'><span>2020-03-05</span></td></tr>
+					<tr><td width='80%' class='ListTitle'>
+						<a href='#' title='关于邮件记录MX解析提醒：如果您顶级域名使用了CNAME记录' target='_blank'>关于邮件记录MX解析提醒：如果您顶级域名使用了CN</a></td>
+						<td width='20%'><span>2017-03-05</span></td></tr>
+					<tr><td width='80%' class='ListTitle'><a href=' ' title='网站是一种沟通工具，人们可以通过网站来发布自己想要公开的资讯，或者利用网站来提供相关的网络服务' target='_blank'>网站是一种沟通工具，人们可以通过网站来发布自己想要</a></td>
+						<td width='20%'><span>2019-03-05</span></td></tr>
+					<tr><td width='80%' class='ListTitle'>
+						<a href=' ' title='网站简史：在因特网的早期，网站还只能保存单纯的文本' target='_blank'>网站简史：在因特网的早期，网站还只能保存单纯的文本</a></td>
+						<td width='20%'><span>2019-03-05</span></td></tr>
+					<tr><td width='80%' class='ListTitle'>
+						<a href=' ' title='网站组成：在早期，域名、空间服务器与程序是网站的基本组成部分' target='_blank'>网站组成：在早期，域名、空间服务器与程序是网站的基</a></td>
+						<td width='20%'><span>2020-03-05</span></td></tr>
+					<tr><td width='80%' class='ListTitle'>
+						<a href='  ' title='世界上第一个注册的域名是在1985年1月注册的' target='_blank'>世界上第一个注册的域名是在1985年1月注册的</a></td>
+						<td width='20%'><span>2020-03-05</span></td></tr>
+					<tr><td width='80%' class='ListTitle'>
+						<a href=' ' title='IP地址是Internet主机的作为路由寻址用的数字型标识' target='_blank'>IP地址是Internet主机的作为路由寻址用的数</a></td>
+						<td width='20%'><span>202020-03-05</span></td></tr><tr><td width='80%' class='ListTitle'>
+						<a href=' ' title='国际域名与国内域名区别：功能和使用上相同，管理机构不同' target='_blank'>国际域名与国内域名区别：功能和使用上相同，管理机构</a></td>
+						<td width='20%'><span>2019-03-05</span></td></tr>
+					<tr><td width='80%' class='ListTitle'>
+						<a href=' ' title='IP协议实际上是一套由软件、程序组成的协议软件' target='_blank'>IP协议实际上是一套由软件、程序组成的协议软件</a></td>
+						<td width='20%'><span>2018-03-05</span></td></tr>
+				</ul>
+			</table>
+		</div>
+		<!------------------left end------------------>
+
+		<!--right2 start-->
+		<div class="right2">
+			<div class="topic">
+				<div class="TopicTitle"><a  href=" " target="_blank">联系我们</a></div>
+				<div class="TopicMore"> <a  href=" " target="_blank"><img src="./Public/Home/Images/more.png"></a></div>
+			</div>
+			<div class='img'><a href=' ' title='联系我们' target='_blank'><img src='./Public/Home/Images/contactus.jpg' alt='联系我们'></a></div>
+			<div class="txt ColorLink">
+				地址：幸福路<br>
+				电话：020-86237231<br>
+				传真：020-88888888<br>
+
+
+			</div>
+
+			<div class="clearfix"></div>
+
+
+		</div>
+		<!--right2 end-->
+		<div class="clearfix"></div>
+
+	</div>
+	<!--MainBlock end-->
+
+	<div class="HeightTab2 clearfix"></div>
+
+	<!--jhyArticleListMainBlock start-->
+	<div class='jhyArticleListMainBlock'><!--列表单元开始-->
+		<div class='juhaoyongALCommonUnit2'>
+			<div class='topic'><div class='TopicTitle'>
+				<a  href=' ' target='_blank'>行业新闻</a></div>
+				<div class='TopicMore'>
+					<a  href=' ' target='_blank'>
+						<img src='./Public/Home/Images/more.png'></a></div></div>
+			<div class='juhaoyongCommonUnitArticleList'>
+				<table class='JHYBlockTable' width='100%' border='0' cellspacing='0' cellpadding='0'>
+					<tr><td width='70%' class='ListTitle'>
+						<a href=' ' title='在互联网的时代，网站的制作并非是一个单纯的技术性问题' target='_blank'>
+						   在互联网的时代，网站的制</a></td>
+						<td width='30%'><span>2002-03-05</span></td>
+					</tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href=' ' title='网站推广，笼统的说，就是由产品或服务为核心内容建立网站，再把这个网站通过各种渠道展示给消费者的一种操作方法' target='_blank'>
+							网站推广，笼统的说，就是</a></td>
+						<td width='30%'><span>2019-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href=' ' title='什么样的网页利于百度爬行蜘蛛的访问来提高自己网站的收录' target='_blank'>
+							什么样的网页利于百度爬行</a></td><td width='30%'><span>2019-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href=' ' title='网站建站流程开始，先为网站设立一个目标' target='_blank'>网站建站流程开始，先为网</a></td>
+						<td width='30%'><span>2020-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href=' ' title='网站一旦被设立目标以后，随着来的就是它要执行的任务' target='_blank'>网站一旦被设立目标以后，</a></td>
+						<td width='30%'><span>2020-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'><a href=' ' title='合理布局，合理利用网站界面空间，合理安排内容' target='_blank'>合理布局，合理利用网站界</a></td>
+						<td width='30%'><span>2020-03-05</span></td></tr><tr><td width='70%' class='ListTitle'>
+					<a href=' ' title='感觉的对比可以分为同时对比现象和继时对比现象' target='_blank'>感觉的对比可以分为同时对</a></td>
+					<td width='30%'><span>2020-02-29</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href=' ' title='网站设计原则：功能设计方便简单，内容丰富简洁易懂' target='_blank'>网站设计原则：功能设计方</a></td>
+						<td width='30%'>
+							<span>2020-02-29</span></td></tr></table></div></div>
+		<!--列表单元结束-->
+		<div class='WidthTab2'></div>
+		<!--列表单元开始-->
+		<div class='juhaoyongALCommonUnit1'><div class='topic'>
+			<div class='TopicTitle'>
+				<a  href=' ' target='_blank'>服务内容</a></div>
+			<div class='TopicMore'>
+				<a  href=' ' target='_blank'>
+					<img src='./Public/Home/Images/more.png'>
+				</a></div></div>
+			<div class='juhaoyongCommonUnitArticleList'><table class='JHYBlockTable' width='100%' border='0' cellspacing='0' cellpadding='0'>
+				<tr><td width='81%' class='ListTitle'>
+					<a href=' ' title='标题撰写规范：准确规范，主题明确；简明精练，言简意赅，突出与关键词的相关性，突出实效性，强调所提供的产品或服务的优势、独特性、专业型' target='_blank'>标题撰写规范：准确规范，主题明确；简明精练，言简意</a></td>
+					<td width='19%'>
+						<span>2020-03-05</span></td></tr>
+				<tr><td width='81%' class='ListTitle'><a href=' ' title='推广不可投机取巧走捷径，推广不可作弊，要真实' target='_blank'>推广不可投机取巧走捷径，推广不可作弊，要真实</a></td>
+					<td width='19%'>
+						<span>20202-03-05</span></td></tr>
+				<tr><td width='81%' class='ListTitle'>
+					<a href='#' title='网站推广不可三天打鱼两天晒网，网站的推广和做网站其实一样的，贵在坚持' target='_blank'>网站推广不可三天打鱼两天晒网，网站的推广和做网站其</a></td><td width='19%'>
+					<span>2020-03-05</span></td></tr>
+				<tr><td width='81%' class='ListTitle'>
+					<a href='#' title='企业网站管理系统是针对企业而设计的具有简单易用、功能强大，性价比高、扩展性好，安全性高、稳定性好的系统' target='_blank'>企业网站管理系统是针对企业而设计的具有简单易用、功</a></td>
+					<td width='19%'><span>2020-03-05</span></td></tr>
+				<tr><td width='81%' class='ListTitle'>
+					<a href='#' title='网站模板设是智能化的建站方式，所建网站风格简洁明快，网站功能紧凑实用，可迅速投入使用' target='_blank'>网站模板设是智能化的建站方式，所建网站风格简洁明快</a></td>
+					<td width='19%'><span>2020-03-05</span></td></tr>
+				<tr><td width='81%' class='ListTitle'>
+					<a href='#' title='网站模版在中国的发展趋势' target='_blank'>网站模版在中国的发展趋势</a></td>
+					<td width='19%'><span>2020-03-05</span></td></tr>
+				<tr><td width='81%' class='ListTitle'>
+					<a href='#' title='网站配色，网站颜色搭配，文字颜色，背景颜色，图片颜色等如何搭配' target='_blank'>网站配色，网站颜色搭配，文字颜色，背景颜色，图片颜</a></td>
+					<td width='19%'><span>2020-02-29</span></td></tr>
+				<tr><td width='81%' class='ListTitle'>
+					<a href='#' title='什么是对比色，对比色的定义' target='_blank'>什么是对比色，对比色的定义</a></td>
+					<td width='19%'><span>2020-02-29</span></td></tr></table></div></div>
+		<!--列表单元结束-->
+		<div class='WidthTab2'></div>
+		<!--列表单元开始-->
+		<div class='juhaoyongALCommonUnit2'>
+			<div class='topic'>
+				<div class='TopicTitle'>
+					<a  href='#' target='_blank'>公司新闻</a></div>
+				<div class='TopicMore'>
+					<a  href='#' target='_blank'>
+						<img src='./Public/Home/Images/more.png'>
+					</a></div></div>
+			<div class='juhaoyongCommonUnitArticleList'>
+				<table class='JHYBlockTable' width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td width='70%' class='ListTitle'>
+					<a href='#' title='企业建站目的一是为了在互联网上宣传企业的品牌、产品以及服务项目，二是为了带来潜在客户' target='_blank'>企业建站目的一是为了在互</a></td>
+					<td width='30%'><span>2018-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href='#l' title='提升转化率必要条件二：优秀营销策略' target='_blank'>提升转化率必要条件二：优</a></td>
+						<td width='30%'><span>2019-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href='#' title='提升转化率必要条件一：稳定关键词排名' target='_blank'>提升转化率必要条件一：稳</a></td>
+						<td width='30%'><span>2016-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href='#' title='企业网站筹划工作：进行企业网站的计划、定位等方面的前期准备工作' target='_blank'>企业网站筹划工作：进行企</a></td>
+						<td width='30%'><span>2016-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href='#' title='如何选择网站模版，选择好模版，可以让建站工作事半功倍' target='_blank'>如何选择网站模版，选择好</a></td>
+						<td width='30%'><span>2018-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href='#' title='企业网站是企业在互联网上进行网络营销和形象宣传的平台' target='_blank'>企业网站是企业在互联网上</a></td>
+						<td width='30%'>
+							<span>2019-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'>
+						<a href='#' title='网站建设流程：申请域名、申请空间、定位网站、风格设计等' target='_blank'>网站建设流程：申请域名、</a></td>
+						<td width='30%'><span>2020-03-05</span></td></tr>
+					<tr><td width='70%' class='ListTitle'><a href='#' title='什么是网站建设' target='_blank'>什么是网站建设</a></td>
+						<td width='30%'><span>2018-03-05</span></td></tr></table></div></div><!--列表单元结束--></div>
+	<div class='HeightTab2 clearfix'></div><!--jhyArticleListMainBlock end-->
+
+</div>
+<!--body end-->
+
+<div class="clearfix"></div>
+
+<div class="clearfix"></div>
+
+<!--footer start-->
+<div id="footer">
+	<div class="inner">
+		<div class='BottomNav'>
+			<a href=''>首页</a> | <a href='#'>关于我们</a> |
+			<a href='#'>人才招聘</a> | <a href='sitemap'>网站地图</a> |
+			<a href='#'>联系我们</a> | <a href='guestmessage'>留言反馈</a> |
+			<a href='rss'>订阅RSS</a></div>
+		<div class='HeightTab'></div>
+		318计应2班 黄淑怡 18103120249<br>
+
+
+	</div>
+</div>
+<!--footer end -->
+
+</div>
+
+
+<script type="text/javascript">
+	window.onerror=function(){return true;}
+</script>
+
+</body>
+</html>
+

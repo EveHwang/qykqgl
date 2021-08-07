@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8">
+<title>首页左侧导航</title>
+<link rel="stylesheet" type="text/css" href="./Public/Admin/Css/public.css" />
+<script type="text/javascript" src="./Public/Admin/Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Public/Admin/Js/public.js"></script>
+	<base target="main" />
+	<script type=text/javascript>
+		$(document).ready(function(){
+			$("#firstpane .menu_body:eq(0)").show();
+			$("#firstpane p.menu_head").click(function(){
+				$(this).addClass("current").next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+				$(this).siblings().removeClass("current");
+			});
+			$("#secondpane .menu_body:eq(0)").show();
+			$("#secondpane p.menu_head").mouseover(function(){
+				$(this).addClass("current").next("div.menu_body").slideDown(500).siblings("div.menu_body").slideUp("slow");
+				$(this).siblings().removeClass("current");
+			});
+
+		});
+	</script>
+</head>
+
+<body id="bg">
+	<!-- 左边节点 -->
+	<div class="container">
+
+		<div class="leftsidebar_box">
+			<a href="?c=Index&a=main" target="main"><div class="line">
+					<img src="./Public/Admin/Images/coin01.png" />&nbsp;&nbsp;首页
+				</div></a>
+			<dl class="system_log">
+				<dt>
+					<img class="icon1" src="./Public/Admin/Images/coin03.png" />
+					<img class="icon2" src="./Public/Admin/Images/coin04.png" /> 部门管理
+					<img class="icon3" src="./Public/Admin/Images/coin19.png" />
+					<img class="icon4" src="./Public/Admin/Images/coin20.png" />
+				</dt>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a class='cks' href='?c=Department&a=index' target="main">部门信息</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a class='cks' href='?c=Department&a=add' target="main">添加部门信息</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+
+			</dl>
+			<dl class="system_log">
+				<dt>
+					<img class="icon1" src="./Public/Admin/Images/coin10.png" />
+					<img class="icon2" src="./Public/Admin/Images/coin09.png" /> 打卡管理
+					<img class="icon3" src="./Public/Admin/Images/coin19.png" />
+					<img class="icon4" src="./Public/Admin/Images/coin20.png" />
+				</dt>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a class='cks' href='?c=Working&a=index'>打卡信息</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+
+			</dl>
+			<dl class="system_log">
+				<dt>
+					<img class="icon1" src="./Public/Admin/Images/coin11.png" />
+					<img class="icon2" src="./Public/Admin/Images/coin12.png" /> 请假管理
+					<img class="icon3" src="./Public/Admin/Images/coin19.png" />
+					<img class="icon4" src="./Public/Admin/Images/coin20.png" />
+				</dt>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a class='cks' href='?c=Afleave&a=index'>请假信息</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a class='cks' href='?c=Afleave&a=add'>添加请假信息</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+			</dl>
+
+			<dl class="system_log">
+				<dt>
+					<img class="icon1" src="./Public/Admin/Images/coin15.png" />
+					<img class="icon2" src="./Public/Admin/Images/coin16.png" /> 出差管理
+					<img class="icon3" src="./Public/Admin/Images/coin19.png" />
+					<img class="icon4" src="./Public/Admin/Images/coin20.png" />
+				</dt>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a class='cks' href='?c=Bustrip&a=index'>出差信息</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+			</dl>
+			<dl class="system_log">
+				<dt>
+					<img class="icon1" src="./Public/Admin/Images/coin07.png" />
+					<img class="icon2" src="./Public/Admin/Images/coin08.png" /> 员工管理
+					<img class="icon3" src="./Public/Admin/Images/coin19.png" />
+					<img class="icon4" src="./Public/Admin/Images/coin20.png" />
+				</dt>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a href='?c=User&a=add'>添加员工</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a class='cks' href='?c=User&a=index'>员工管理</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+			</dl>
+			<dl class="system_log">
+				<dt>
+					<img class="icon1" src="./Public/Admin/Images/coinL1.png" />
+					<img class="icon2" src="./Public/Admin/Images/coinL2.png" /> 系统管理
+					<img class="icon3" src="./Public/Admin/Images/coin19.png" />
+					<img class="icon4" src="./Public/Admin/Images/coin20.png" />
+				</dt>
+				<dd>
+					<img class="coin11" src="./Public/Admin/Images/coin111.png" />
+					<img class="coin22" src="./Public/Admin/Images/coin222.png" />
+					<a href='?c=User&a=index' class='cks'>修改密码</a>
+					<img class="icon5" src="./Public/Admin/Images/coin21.png" />
+				</dd>
+
+			</dl>
+
+		</div>
+
+	</div>
+</body>
+</html>

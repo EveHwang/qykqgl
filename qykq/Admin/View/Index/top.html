@@ -1,0 +1,41 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>头部</title>
+<link rel="stylesheet" type="text/css" href="./Public/Admin/Css/public.css" />
+<script type="text/javascript" src="./Public/Admin/Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Public/Admin/Js/public.js"></script>
+</head>
+
+<body>
+	<!-- 头部 -->
+	<div class="head">
+		<div class="headL">
+			<h2 style="color: #FFF; width: 270px; height: 40px; padding-top: 20px; font-size: 21px; float: left;">
+				企业考勤管理系统
+			</h2>
+		</div>
+		<div class="headR">
+			<div class="top2">
+				<ul>
+					<li class="l">
+						<a target="_top" href="javascript:void(0)"  class="c" style="color: #FFF;">
+							您好！<{$smarty.session.username}>
+						</a>
+					</li>
+					<li>
+						<a target="_top" href="?c=User&a=login" >退出登录</a>
+					</li>
+					<li>
+						<a target="_top" href="index.php?c=index&a=login">返回前台</a>
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

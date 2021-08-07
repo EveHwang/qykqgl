@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53de9348-b131-4109-b6ac-efb8c9731d53" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/phpMyAdmin4.8.5/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9010" />
+  <component name="PhpServers">
+    <servers>
+      <server host="evelyn" id="99776ec2-a548-426b-a8cb-469afc066dce" name="se" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/samyoul/u2f-php-server" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/composer" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpmyadmin/shapefile" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpmyadmin/sql-parser" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpmyadmin/motranslator" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/pragmarx/google2fa" />
+    </include_path>
+  </component>
+  <component name="PhpXdebugProxy" ide_key="PHPstorm" host="localhost" port="9010" />
+  <component name="ProjectId" id="1eDeSOoY2eNhKa4X7gEam2IrYJu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true" server_name="se">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53de9348-b131-4109-b6ac-efb8c9731d53" name="Default Changelist" comment="" />
+      <created>1593860589566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593860589566</updated>
+      <workItem from="1593860591610" duration="780000" />
+      <workItem from="1594096132262" duration="34386000" />
+      <workItem from="1594631237087" duration="42110000" />
+      <workItem from="1595039094124" duration="11260000" />
+      <workItem from="1595135281259" duration="8182000" />
+      <workItem from="1595303301229" duration="34510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="126" y="169" key="#Servers" timestamp="1594696942596">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="126" y="169" key="#Servers/0.0.1440.860@0.0.1440.860" timestamp="1594696942596" />
+    <state x="0" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594696948356">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="0" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1594696948356" />
+    <state x="404" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594202409922">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="404" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1594202409922" />
+    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595331521732">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860@0.0.1440.860" timestamp="1595331521732" />
+    <state width="1397" height="146" key="GridCell.Tab.0.bottom" timestamp="1594630960990">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1594630960990" />
+    <state width="1397" height="146" key="GridCell.Tab.0.center" timestamp="1594630960990">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1594630960990" />
+    <state width="1397" height="146" key="GridCell.Tab.0.left" timestamp="1594630960989">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1594630960989" />
+    <state width="1397" height="146" key="GridCell.Tab.0.right" timestamp="1594630960990">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1594630960990" />
+    <state width="1397" height="146" key="GridCell.Tab.1.bottom" timestamp="1594630960991">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1594630960991" />
+    <state width="1397" height="146" key="GridCell.Tab.1.center" timestamp="1594630960991">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1594630960991" />
+    <state width="1397" height="146" key="GridCell.Tab.1.left" timestamp="1594630960990">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1594630960990" />
+    <state width="1397" height="146" key="GridCell.Tab.1.right" timestamp="1594630960991">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1594630960991" />
+    <state width="1397" height="146" key="GridCell.Tab.2.bottom" timestamp="1594630960992">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1594630960992" />
+    <state width="1397" height="146" key="GridCell.Tab.2.center" timestamp="1594630960991">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1594630960991" />
+    <state width="1397" height="146" key="GridCell.Tab.2.left" timestamp="1594630960991">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1594630960991" />
+    <state width="1397" height="146" key="GridCell.Tab.2.right" timestamp="1594630960992">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="146" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1594630960992" />
+    <state x="447" y="303" key="IDE.errors.dialog" timestamp="1594275707653">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="447" y="303" key="IDE.errors.dialog/0.0.1440.860@0.0.1440.860" timestamp="1594275707653" />
+    <state x="987" y="207" key="NewPhpFileDialog" timestamp="1594191074918">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="987" y="207" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1594191074918" />
+    <state x="312" y="13" key="SettingsEditor" timestamp="1594630894323">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="13" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1594630894323" />
+    <state x="620" y="-3" key="run.anything.popup" timestamp="1594645910015">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="620" y="-3" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1594645910015" />
+    <state x="383" y="180" key="search.everywhere.popup" timestamp="1594996099844">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1594996099844" />
+  </component>
+</project>

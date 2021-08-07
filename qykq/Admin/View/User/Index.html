@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link href="./Public/Admin/Css/public.css" rel="stylesheet" type="text/css" />
+	<link href="./Public/Admin/Css/haiersoft.css" rel="stylesheet" type="text/css" media="screen,print" />
+	<link href="./Public/Admin/Css/print.css" rel="stylesheet" type="text/css"  media="print" />
+	<script src="./Public/Admin/Js/jquery-1.10.1.min.js"></script>
+	<script src="./Public/Admin/Js/side.js" type="text/javascript"></script>
+<title>用户管理</title>
+<script type="text/javascript">
+	function confirmDel(id)
+	{
+		//询问是否删除信息
+		if(window.confirm("你确定要删除吗？"))
+		{
+			location.href="?c=User&a=delete&id="+id;
+		}
+	}
+</script>
+</head>
+
+<body leftmargin="2" topmargin="0" marginwidth="0" marginheight="0" oncontextmenu="self.event.returnValue=false">
+	<div id="MainForm">
+		<div class="form_boxA">
+			<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" class="border">
+				<tr>
+					<h2>用户管理</h2>
+
+
+
+	<tr class="title">
+		<td align="center">编号</td>
+		<td align="center">用户名</td>
+		<td align="center">姓名</td>
+		<td align="center">联系电话</td>
+		<td align="center">角色</td>
+		<td align="center">密码</td>
+		<td align="center">账号状态</td>
+		<td align="center">操作选项</td>
+	</tr>
+<{foreach $users as $user}>
+	<tr class="tdbg">
+		<td align="center"><{$user['id']}></td>
+		<td scope="center"><{$user.username}></td>
+		<td align="center"><{$user.name}></td>
+		<td align="center"><{$user.tel}></td>
+		<td align="center">
+		<{if $user.role}>管理员<{else}>普通用户<{/if}>
+		</td>
+		<td align="center"><{$user.password}></td>
+		<td align="center">
+		<{if $user.status}>正常<{else}><span style="color: red">关闭</span><{/if}>
+		</td>
+		<td align="center">
+			<a href="?c=User&a=edit&id=<{$user.id}>">修改</a> | 
+			<a href="javascript:void(0);" onClick="confirmDel(<{$user.id}>)">删除</a>
+	</tr>
+<{/foreach}>
+		</div>
+	</div>
+</table>
+</body>
+</html>
